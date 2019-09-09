@@ -1,0 +1,40 @@
+{
+  "name": "cronenberg",
+  "version": "0.1.0",
+  "description": "A crontab-like service for triggering HTTP Endpoints in a timely manner.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha -b --no-diff test/*.js",
+    "coverage": "nyc -r html -r text-summary mocha -b --no-diff --no-warnings test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/GCSBOSS/cronenberg.git"
+  },
+  "keywords": [
+    "cron",
+    "crontab",
+    "http",
+    "webhook",
+    "endpoint",
+    "timer",
+    "trigger",
+    "api",
+    "job"
+  ],
+  "author": "Guilherme C. Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/GCSBOSS/cronenberg/issues"
+  },
+  "bin": {
+    "cronenberg": "bin/cronenberg.js"
+  },
+  "homepage": "https://gitlab.com/GCSBOSS/cronenberg#readme",
+  "dependencies": {
+    "eclipt": "^0.1.2",
+    "muhb": "^1.0.0",
+    "node-cron": "^2.0.3",
+    "yaml": "^1.6.0"
+  }
+}

@@ -1,0 +1,5 @@
+
+test2:
+  url: http://localhost:8088/t2
+  method: post
+  spec: "* * * * *"
