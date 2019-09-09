@@ -10,6 +10,6 @@ RUN npm i --no-optional -P
 COPY . .
 
 # This was commented to work on Windows (might be a bad idea)
-# USER ribamar
+# USER cronenberg
 
-CMD ["node", "./bin/cronenberg.js -c ./conf.yml"]
+CMD ["node", "./bin/cronenberg.js", "-c", "./conf.yml"]
