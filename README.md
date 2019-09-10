@@ -1,6 +1,6 @@
 # [Cronenberg](https://gitlab.com/GCSBOSS/cronenberg)
 
-A RESTful service specialized in receiving and managing web file uploads.
+A cronta-like service that will send HTTP requests to any endpoints you setup in a timely manner.
 
 ## Get Started
 
@@ -24,6 +24,12 @@ boil-water:
 ```
 
 3. Run in the terminal with: `cronenberg -c path/to/conf.yml`.
+
+## Get Started with Docker
+
+The official image repository in Docker Hub is `gcsboss/cronenberg`.
+
+Run like this: `docker run -v /path/to/your/conf.yml:/usr/src/app/conf.yml gcsboss/cronenberg`
 
 ## Reporting Bugs
 If you have found any problems with this module, please:
