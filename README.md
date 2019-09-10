@@ -1,6 +1,6 @@
 # [Cronenberg](https://gitlab.com/GCSBOSS/cronenberg)
 
-A cronta-like service that will send HTTP requests to any endpoints you setup in a timely manner.
+A crontab-like service that will send HTTP requests to any endpoints you setup in a timely manner.
 
 ## Get Started
 
